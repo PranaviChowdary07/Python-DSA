@@ -12,7 +12,7 @@ def second_largest(arr):
         elif num >second_largest and num != largest:
             second_largest = num
     return second_largest
-arr = array('i',[34,23,45,55,12,65])
+arr = array('i',[34,23,45,55,14,12,65])
 S_largest = second_largest(arr)
 print("second largest element:",S_largest)
 
