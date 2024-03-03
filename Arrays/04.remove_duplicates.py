@@ -12,7 +12,7 @@ def remove_duplicates(nums):
             unique_index+=1
             nums[unique_index] = nums[i]
     return unique_index+1
-sortedArray = [1,1,1,2,2,3,3,4,4] 
+sortedArray = [1,1,1,2,2,3,3,3,4,4] 
 s = remove_duplicates(sortedArray)
 print(sortedArray[:s])
 
