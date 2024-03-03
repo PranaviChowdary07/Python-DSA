@@ -7,7 +7,7 @@ def isSorted(t):
 n = int(input("Enter n:"))
 a = []
 print("Enter the values one by one:")
-for  i in  range(0,n):       # this line only enter the list
+for  i in  range(0,n):       # this line only for enter the list
     a.append(int(input()))
 if isSorted(a):
     print("Array is Sorted")
