@@ -10,7 +10,7 @@ def find_largest(arr):
         if num > max_element:
             max_element = num
     return max_element
-arr = array('i', [4,69,45,16,7,22,11,56,34])  
+arr = array('i', [4,69,45,16,71,7,22,11,56,34])  
 largest_element = find_largest(arr)
 print("Largest element:",largest_element)
 
