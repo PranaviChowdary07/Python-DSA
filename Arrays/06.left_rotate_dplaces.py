@@ -30,7 +30,7 @@ def left_rotate(arr, k):
     reverse(arr, 0, n - 1)
 
 
-arr = [10,11,12,13,14,15]
+arr = [10,11,12,13,14,15,16]
 k = 4
 left_rotate(arr, k)
 print("Rotated array:", arr)  
