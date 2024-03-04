@@ -1,5 +1,6 @@
 from array import array
 
+# Brute code
 def left_rotate(arr,k):
     n =len(arr)
     k = k % n
@@ -14,3 +15,5 @@ k = 2
 left_rotate(arr,k)
 print(arr)
     
+# Optimal
+def left_rotate(arr,k)
