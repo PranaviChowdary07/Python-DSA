@@ -16,4 +16,22 @@ left_rotate(arr,k)
 print(arr)
     
 # Optimal
-def left_rotate(arr,k)
+def reverse(arr, start, end):
+    while start < end:
+        arr[start], arr[end] = arr[end], arr[start]
+        start += 1
+        end -= 1
+
+def left_rotate(arr, k):
+    n = len(arr)
+    k = k % n
+    reverse(arr, 0, k - 1)
+    reverse(arr, k, n - 1)
+    reverse(arr, 0, n - 1)
+
+
+arr = [10,11,12,13,14,15,16]
+k = 3
+left_rotate(arr, k)
+print("Rotated array:", arr)  # Output: [3, 4, 5, 1, 2]
+
