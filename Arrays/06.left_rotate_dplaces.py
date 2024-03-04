@@ -30,8 +30,7 @@ def left_rotate(arr, k):
     reverse(arr, 0, n - 1)
 
 
-arr = [10,11,12,13,14,15,16]
+arr = [10,11,12,13,14,15]
 k = 3
 left_rotate(arr, k)
-print("Rotated array:", arr)  # Output: [3, 4, 5, 1, 2]
-
+print("Rotated array:", arr)  
