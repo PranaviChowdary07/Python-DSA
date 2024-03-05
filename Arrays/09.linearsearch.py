@@ -4,7 +4,7 @@ def linear(arr,target):
            return i
     return -1
 
-arr = [3,5,2,5,7,58]
+arr = [3,5,2,5,7]
 target = 2
 result = linear(arr,target)
 if result != -1:
