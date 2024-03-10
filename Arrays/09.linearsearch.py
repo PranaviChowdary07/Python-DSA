@@ -5,7 +5,7 @@ def linear(arr,target):
     return -1
 
 arr = [3,5,2,22,11,7,10,6,14]
-target = 0
+target = 11
 result = linear(arr,target)
 if result != -1:
     print(result)
