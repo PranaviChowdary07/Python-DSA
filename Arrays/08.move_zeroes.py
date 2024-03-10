@@ -36,6 +36,6 @@ def move_zeroes_toend(arr):
          arr[i] = 0
          i +=1
 arr = [0,4,5,0,0,3,1,0,0,6]
-
+print("Original Array:",arr)
 move_zeroes_toend(arr)
 print(arr)
