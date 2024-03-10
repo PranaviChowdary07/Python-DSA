@@ -1,4 +1,4 @@
-# Brute force
+""" # Brute force
 def move_zeroes(arr):
     i = 0
     while i < len(arr):
@@ -11,7 +11,7 @@ arr = [0,3,0,5,0,7,9,0,0,8]
 move_zeroes(arr)
 print(arr)
 
-"""  Another code:
+#Another code:
 def move_zeroes(arr):
     n = len(arr)
     for i in range(n):
@@ -23,7 +23,7 @@ def move_zeroes(arr):
                 arr[i],arr[j] = arr[j], arr[i]
 arr = [0,2,0,4,0,0,5,6,0,7]
 move_zeroes(arr)
-print(arr)
+print(arr) """
 
 # optimal solution:
 def move_zeroes_toend(arr):
@@ -36,6 +36,6 @@ def move_zeroes_toend(arr):
          arr[i] = 0
          i +=1
 arr = [0,4,5,0,0,3,1,0,0,6]
+
 move_zeroes_toend(arr)
 print(arr)
- """
