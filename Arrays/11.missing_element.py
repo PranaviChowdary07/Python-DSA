@@ -8,7 +8,7 @@ def missing(arr):
     missing_num = totalsum - arr_sum
     return missing_num
 
-arr = [1,2,3,4,5,6,8,9,10]
+arr = [1,2,3,4,6,7,8,9,10]
 mising_number = missing(arr)
 print("Missing Element :",mising_number)
 
