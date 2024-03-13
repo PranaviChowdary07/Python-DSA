@@ -20,4 +20,27 @@ print(sortedArray[:s])
 OUTPUT:
 [1, 2, 3, 4]
  """
+"""
+ without def function:
+  
+num_list = [1,2,3,4,3,5,6,2]
+new_list = []
+for num in num_list:
+  if (num not in new_list):
+     new_list.append(num)
+   
+print("List after remove duplicate:",new_list)
+ """
+
+def remove_duplicates(num_list):
+   
+    new_list = []
+    for num in num_list:
+        if num not in new_list:
+            new_list.append(num)
+    return new_list
+
+num_list = [1, 2, 3, 4, 3, 5, 6, 2]
+unique_list = remove_duplicates(num_list)
+print("List after removing duplicates:", unique_list)
 
