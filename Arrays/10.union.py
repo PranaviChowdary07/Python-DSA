@@ -1,1 +1,1 @@
-    # Union of two sorted arrays
+    # Union of two sorted arrays.
