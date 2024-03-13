@@ -14,5 +14,5 @@ print("Missing Element :",mising_number)
 
 """ 
 OUTPUT:
-Missing Element : 
+Missing Element : 5
  """
