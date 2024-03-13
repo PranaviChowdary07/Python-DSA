@@ -22,7 +22,7 @@ OUTPUT:
  """
 """
  without def function:
-  
+
 num_list = [1,2,3,4,3,5,6,2]
 new_list = []
 for num in num_list:
@@ -40,7 +40,7 @@ def remove_duplicates(num_list):
             new_list.append(num)
     return new_list
 
-num_list = [1, 2, 3, 4, 3, 5, 6, 2]
+num_list =[1,2,4,5,3,3,2,6,7,6]
 unique_list = remove_duplicates(num_list)
 print("List after removing duplicates:", unique_list)
 
