@@ -12,6 +12,6 @@ def max_consecutive_zeros_ones(arr):
 
     max_count = max(max_count, count)  
     return max_count
-array = [0, 1, 0, 0, 1, 1, 0, 0, 0, 1,1,1,1, 1]
+array = [0, 1, 0, 0, 1, 1, 0, 0, 0, 1,1,1,1]
 
 print("Max consecutive nums in array :",max_consecutive_zeros_ones(array))
