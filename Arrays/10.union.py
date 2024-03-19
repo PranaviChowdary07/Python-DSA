@@ -25,5 +25,5 @@ def union_of_sorted_arrays(arr1, arr2):
 
     return sorted(union_set)
 arr1 = [1, 3, 4, 5, 6,7]
-arr2 = [2, 3, 5, 6,8]
+arr2 = [2, 3, 5, 6,8,9]
 print(union_of_sorted_arrays(arr1, arr2))
