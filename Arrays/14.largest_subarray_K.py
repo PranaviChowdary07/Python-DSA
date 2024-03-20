@@ -15,5 +15,5 @@ def maxSubArrayLen(nums, k):
 
 # Example usage
 nums = [1, 1, 1, 2, 3, 4]
-k = 3
+k = 2
 print("Length of the largest subarray with sum", k, "is:", maxSubArrayLen(nums, k))
