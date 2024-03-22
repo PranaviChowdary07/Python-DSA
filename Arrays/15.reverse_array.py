@@ -14,3 +14,8 @@ print("Original Arrray:",arr)
 #print(arr)
 Reverse_Array = revArray(arr)
 print("Reversed Array:",Reverse_Array)
+
+""" OUTPUT:-
+
+Original Arrray: [1, 2, 3, 4, 5, 6]
+Reversed Array: [6, 5, 4, 3, 2, 1] """
