@@ -8,7 +8,7 @@ def revArray(arr):
         end -= 1
     return arr
 
-arr = [1,2,3,4,5,6,7]
+arr = [1,2,3,4,5,6]
 print("Original Arrray:",arr)
 #revArrray(arr)
 #print(arr)
