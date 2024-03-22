@@ -10,7 +10,7 @@ def revArray(arr):
 
 #arr =input("Enter the arr values:").split()   --> when array takes from user
 #arr = [int (x) for x in arr]
-arr = [1,2,3,4,5,6]
+arr = [1,2,3,4,5,6,7]
 print("Original Arrray:",arr)
 #revArrray(arr)
 #print(arr)
@@ -19,5 +19,5 @@ print("Reversed Array:",Reverse_Array)
 
 """ OUTPUT:-
 
-Original Arrray: [1, 2, 3, 4, 5, 6]
-Reversed Array: [6, 5, 4, 3, 2, 1] """
+Original Arrray: [1, 2, 3, 4, 5, 6,7]
+Reversed Array: [7,6, 5, 4, 3, 2, 1] """
