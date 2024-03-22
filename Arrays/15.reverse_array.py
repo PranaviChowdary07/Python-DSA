@@ -10,7 +10,7 @@ def revArray(arr):
 
 #arr =input("Enter the arr values:").split()   --> when array takes from user
 #arr = [int (x) for x in arr]
-
+arr = [1,2,3,4,5,6]
 print("Original Arrray:",arr)
 #revArrray(arr)
 #print(arr)
