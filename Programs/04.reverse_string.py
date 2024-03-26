@@ -4,10 +4,8 @@ def reverse_string(input_string):
     
     # Iterate through the characters of the input string in reverse order
     for char in input_string[::-1]:
-        # Append each character to the reversed_string
-        reversed_string += char
-    
-    # Return the reversed string
+        
+        reversed_string += char   
     return reversed_string
 
 # Example usage:
