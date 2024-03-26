@@ -1,7 +1,6 @@
 def is_armstrong_number(number):
     # Count number of digits
     num_length = len(str(number))
-    
     # Initialize sum variable
     armstrong_sum = 0
     temp = number
