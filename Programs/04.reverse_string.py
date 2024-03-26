@@ -8,7 +8,6 @@ def reverse_string(input_string):
         reversed_string += char   
     return reversed_string
 
-# Example usage:
 input_str = input("Enter a string: ")
 reversed_str = reverse_string(input_str)
 print("Reversed string:", reversed_str)
