@@ -14,11 +14,13 @@ def is_armstrong_number(number):
         return True
     else:
         return False
-number =145
+    # given input in code
+""" number =145
 ams = is_armstrong_number(number)
-print("number",ams)
-""" number = int(input("Enter a number: "))
+print("number",ams) """
+# user takes input
+number = int(input("Enter a number: "))
 if is_armstrong_number(number):
     print(number, "is an Armstrong number.")
 else:
-    print(number, "is not an Armstrong number.") """
+    print(number, "is not an Armstrong number.")
