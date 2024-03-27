@@ -4,6 +4,6 @@ def leapyear(num):
             print("leap year")
         else:
             print("no")
-n = int(input("Enter a year: "))
+n = int(input("Enter a year : "))
 leap = leapyear(num)
 print(leap)
