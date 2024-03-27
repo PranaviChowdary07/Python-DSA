@@ -1,9 +1,10 @@
-def leapyear(n):
-    for i in n:
-        if n %4 ==0:
-            print("leap year")
-        else:
-            print("no")
-n = int(input("Enter a year: "))
-leap = leapyear(n)
-print(leap)
+def is_leap_year(year):
+    # Leap years are divisible by 4
+    # But not by 100 unless also divisible by 400
+    return (year % 4 == 0) and (year % 100 != 0 or year % 400 == 0)
+year = int(input("Enter the year:"))
+if is_leap_year(year):
+    print("{year} is a leap year")
+else:
+    print("{year} is not a leap year")
+
