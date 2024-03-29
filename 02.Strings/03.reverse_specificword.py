@@ -9,3 +9,8 @@ sentence = "Pranavi learns Python"
 target_word = "learns"
 output_sentence = reverse_word_in_sentence(sentence, target_word)
 print("Output:", output_sentence)
+
+""" Output:
+
+Output: Pranavi snrael Python
+ """
