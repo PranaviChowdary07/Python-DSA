@@ -1,6 +1,5 @@
 def is_palindrome(s):
-    # Remove spaces and convert to lowercase
-    s = s.replace(" ", "").lower()
+    s = s.replace(" ", "").lower()   # Remove spaces and convert to lowercase
     
     # Initialize pointers for the beginning and end of the string
     start = 0
