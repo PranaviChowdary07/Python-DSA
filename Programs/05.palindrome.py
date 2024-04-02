@@ -6,9 +6,9 @@ def is_palindrome(s):
     
     # Loop until the pointers meet
     while start < end:
-        # If characters at the pointers don't match, return False
+       
         if s[start] != s[end]:
-            return False
+            return False    # If characters at the pointers don't match, return False
         start += 1
         end -= 1
     return True
