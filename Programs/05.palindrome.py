@@ -12,7 +12,5 @@ def is_palindrome(s):
         start += 1
         end -= 1
     return True
-
-# Test the function
 print(is_palindrome("radar"))  # True
 print(is_palindrome("hello"))  # False
