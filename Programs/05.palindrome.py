@@ -1,8 +1,7 @@
 def is_palindrome(s):
     s = s.replace(" ", "").lower()   # Remove spaces and convert to lowercase
-    
-    # Initialize pointers for the beginning and end of the string
-    start = 0
+
+    start = 0         # Initialize pointers for the beginning and end of the string
     end = len(s) - 1
     
     # Loop until the pointers meet
