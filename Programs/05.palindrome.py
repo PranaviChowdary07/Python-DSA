@@ -11,7 +11,6 @@ def is_palindrome(s):
         # If characters at the pointers don't match, return False
         if s[start] != s[end]:
             return False
-        # Move the pointers towards each other
         start += 1
         end -= 1
     
