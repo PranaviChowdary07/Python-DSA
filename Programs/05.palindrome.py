@@ -13,8 +13,6 @@ def is_palindrome(s):
             return False
         start += 1
         end -= 1
-    
-    # If the loop completes without finding any non-matching characters, return True
     return True
 
 # Test the function
