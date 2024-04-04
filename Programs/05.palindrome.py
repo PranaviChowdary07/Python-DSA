@@ -10,6 +10,9 @@ def is_palindrome(s):
 # Use a while loop to repeatedly  take from  user input
 while True:
     user_input = input("Enter a string: ")
+    if user_input.lower()== 'exit':
+        print("Exiting the program.")
+        break
     if is_palindrome(user_input):
         print("The input string is a palindrome.")
     else:
