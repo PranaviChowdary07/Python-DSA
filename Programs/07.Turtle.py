@@ -1,7 +1,7 @@
 import turtle as t
 import colorsys
 
-t.speed(0)
+t.speed(30)
 t.bgcolor("black")
 h = 0
 for i in range(16):
