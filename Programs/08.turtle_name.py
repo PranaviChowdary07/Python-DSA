@@ -33,9 +33,9 @@ def draw_heart():
 draw_heart()
 
 # Write the birthday message inside the heart
-t.goto(0,-160)
+t.goto(0,90)
 t.color("white")
-t.write("HAPPY BIRTHDAY BRO", align="right", font=("Monotype Corsiva", 24, "bold"))
+t.write("HAPPY BIRTHDAY BRO", align="center", font=("Monotype Corsiva", 24, "bold"))
 
 # Hide the turtle
 t.hideturtle()
