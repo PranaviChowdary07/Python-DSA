@@ -21,3 +21,10 @@ def heart():
     t.end_fill()
 heart()
 t.ht()
+def write(message,pos):
+    x,y = pos
+    t.penup()
+    t.goto(x,y)
+    t.color('white')
+    style = ('Stencil Std',18,'italic')
+    t.write(message,font=style)
