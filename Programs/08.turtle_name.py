@@ -12,33 +12,33 @@ t.color("red")
 t.penup()
 
 # Function to draw a heart
-def draw_heart(x, y, size):
-    t.goto(x, y)
+def draw_heart():
+    t.goto(0,-100)
     t.pendown()
     t.begin_fill()
     t.left(140)
-    t.forward(120 * size)
+    t.forward(224)
     for i in range(200):
         t.right(1)
-        t.forward(2 * size)
+        t.forward(2 )
     t.left(120)
     for i in range(200):
         t.right(1)
-        t.forward(2 * size)
-    t.forward(120 * size)
+        t.forward(2)
+    t.forward(224)
     t.end_fill()
     t.penup()
 
 # Draw heart shape
-draw_heart(0, 0, 1)
+draw_heart()
 
 # Write the birthday message inside the heart
-t.goto(0, -30)
+t.goto(0,-160)
 t.color("white")
-t.write("Happy Birthday Bro", align="center", font=("Arial", 20, "normal"))
+t.write("HAPPY BIRTHDAY BRO", align="right", font=("Monotype Corsiva", 24, "bold"))
 
 # Hide the turtle
 t.hideturtle()
 
-# Keep the window open
-screen.mainloop()
+# Close the turtle graphics window on click
+screen.exitonclick()
