@@ -1,36 +1,44 @@
 import turtle
-from turtle import *
 
-wn = Screen()
-wn.bgcolor('green')
+# Set up the screen
+screen = turtle.Screen()
+screen.setup(width=600, height=600)
+screen.bgcolor("lightblue")
+
+# Create a turtle
 t = turtle.Turtle()
-t.pencolor('white')
+t.speed(0)
+t.color("red")
+t.penup()
 
-def curve():
-    for i in range(200):
-        t.rt(1)
-        t.fd(1)
-
-def heart():
-    t.fillcolor('red')
+# Function to draw a heart
+def draw_heart(x, y, size):
+    t.goto(x, y)
+    t.pendown()
     t.begin_fill()
-    t.lt(140)
-    t.fd(113)
-    curve()
-    t.lt(120)
-    curve()
-    t.fd(112)
+    t.left(140)
+    t.forward(120 * size)
+    for i in range(200):
+        t.right(1)
+        t.forward(2 * size)
+    t.left(120)
+    for i in range(200):
+        t.right(1)
+        t.forward(2 * size)
+    t.forward(120 * size)
     t.end_fill()
-heart()
-t.ht()
-def write(message,pos):
-    x,y = pos
     t.penup()
-    t.goto(x,y)
-    t.color('white')
-    style = ('Stencil Std',18,'italic')
-    t.write(message,font=style)
 
-write('HPY',(-68,95))
-write('BDY',(-55,95))
-write('BR0'(-42,95))
+# Draw heart shape
+draw_heart(0, 0, 1)
+
+# Write the birthday message inside the heart
+t.goto(0, -30)
+t.color("white")
+t.write("Happy Birthday Bro", align="center", font=("Arial", 20, "normal"))
+
+# Hide the turtle
+t.hideturtle()
+
+# Keep the window open
+screen.mainloop()
