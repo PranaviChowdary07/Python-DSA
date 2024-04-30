@@ -11,8 +11,6 @@ def is_prime(num):
             return False
         i += 6
     return True
-
-# Example usage:
 num = int(input("Enter a number: "))
 if is_prime(num):
     print(num, "is a prime number.")
