@@ -1,4 +1,4 @@
-def is_prime(num):
+def prime(num):
     if num <= 1:
         return False
     elif num <= 3:
