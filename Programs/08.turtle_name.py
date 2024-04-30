@@ -39,7 +39,4 @@ t.write("HAPPY BIRTHDAY BRO", align="center", font=("Monotype Corsiva", 24, "bol
 
 # Hide the turtle
 t.hideturtle()
-
-
-# Close the turtle graphics window on click
 screen.exitonclick()
